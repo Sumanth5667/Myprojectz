@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+            background-image: url(images/bg3.jpg);
+            
+            margin: auto;
+        }
+        input[type="text"]:focus{
+            background-color:antiquewhite;
+            color: black;
+            transition: all 0.5s;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+        <img src="images/logo9.png"  alt=""></center>
+    </div>
+    <center>
+    <form action="">
+        <label for="f_name">FIRST NAME:</label>
+        <input type="text" required><br><br>
+        <label for="l_name">LAST NAME:</label>
+        <input type="text" required><br><br>
+        <label for="email">  EMAIL:</label>
+        <input type="email" required><br><br>
+        <label for="date of birth">DOB</label>
+        <input type="date" required><br><br>
+        <label for="couse">SELECT YOUR COURSE:</label>
+        <select name="course" id="" required>
+            <option >SELECCT YOUR COURSE</option>
+            <option value="cse">cse</option>
+            <option value="ece">ece</option>
+            <option value="mech">mech</option>
+            <option value="ecm">ecm</option>
+            <option value="biotech">biotech</option>
+            <option value="aids">aids</option>
+            <option value="cybersecurity">cybersecurity</option>
+            <option value="aiml">aiml</option>
+            <option value="bba">bba</option>
+            <option value="law">law</option>
+            <option value="agriculture">agriculture</option>
+            <option value="bca">bca</option>
+            <option value="bcom">bcom</option>
+            <option>any other course</option>
+        </select><br><br>
+        <label for="othercourse">MENTION IF OTHER COURSE</label>
+        <input type="text" ><br><br>
+<label for="phno">MOBILE NUMBER</label>
+<input type="number" id="phno" required><br><br>
+<button type="submit" style="background-color: blue; color: white;">submit</button>
+</form>
+</body>
+</center>
+</html>
